@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fractal Hello World</title>
+    <title>3D Star Hello World</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <style>
         body {
             margin: 0;
@@ -42,6 +43,7 @@
             border-radius: 10px;
             backdrop-filter: blur(5px);
             animation: fadeIn 2s ease-in;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
         }
 
         @keyframes fadeIn {
@@ -51,10 +53,9 @@
     </style>
 </head>
 <body>
-    <canvas id="fractalCanvas"></canvas>
     <div class="container">
         <h1>Hello World</h1>
     </div>
-    <script src="fractal.js"></script>
+    <script src="star.js"></script>
 </body>
 </html> 
