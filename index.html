@@ -3,82 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Website</title>
-    <!-- GSAP for animations -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-    <!-- Custom styles -->
+    <title>Slidedeck</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">Your Logo</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="animate-text">Welcome to My Website</h1>
-            <p class="animate-text">Creating beautiful web experiences</p>
-            <button class="cta-button">Get Started</button>
-        </div>
-        <div class="hero-background"></div>
-    </section>
-
-    <section id="about" class="about">
-        <h2 class="section-title">About</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="content-wrapper">
+        <section class="purpose-section">
+            <div class="content-block">
+                <h1>Company Purpose</h1>
+                <p>Espri enables organizations to adopt AI—fast—so they unlock measurable value and efficiency in every workflow.</p>
             </div>
-            <div class="about-image">
-                <div class="floating-shape"></div>
+        </section>
+        
+        <section class="problem-section">
+            <div class="content-block">
+                <h2>Problem</h2>
+                <p>Most businesses outside Big Tech are still riding bicycles: fragmented data, legacy tools, no roadmap, and no security framework for trustworthy AI. The result is slow decisions, costly manual processes, and rising compliance risk.</p>
             </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <div class="project-image"></div>
-                <h3>Project 1</h3>
-                <p>Description of project 1</p>
-            </div>
-            <div class="project-card">
-                <div class="project-image"></div>
-                <h3>Project 2</h3>
-                <p>Description of project 2</p>
-            </div>
-            <div class="project-card">
-                <div class="project-image"></div>
-                <h3>Project 3</h3>
-                <p>Description of project 3</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2 class="section-title">Contact</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
-
-    <!-- Custom scripts -->
-    <script src="js/animations.js"></script>
+        </section>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html> 
